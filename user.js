@@ -56,7 +56,6 @@ router.delete('/:id', (req, res) => {
     console.log(req.body)
     user.splice(req.params.id-1 ,1)
     res.status(200).send({ status: 200, user : user })
-
 })
 router.put('/:id', (req, res) => {
     
