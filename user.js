@@ -65,7 +65,6 @@ router.put('/:id', (req, res) => {
     }
 else{
     res.status(400).send({ status: 400, Massage : "user not found"})
-    
 }
 })
 module.exports= router
