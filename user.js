@@ -24,7 +24,7 @@ res.status(200).send({
     massage:"All users",
     Users:user
 })
-// console.log(user);
+
 })
 router.get('/:id',(req, res)=>{
     let user1 = user.find(e=>e.id==req.params.id)
