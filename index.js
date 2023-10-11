@@ -34,7 +34,6 @@ app.get("/about", (req ,res)=>{
 
 
 
-
 app.listen(3000,()=>{
     console.log("server ready" + 3000);
 })
